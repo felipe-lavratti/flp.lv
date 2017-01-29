@@ -28,7 +28,6 @@ p.links {
 div.quote {
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 200px;
 }
 
 p.quote {
@@ -38,7 +37,7 @@ p.quote {
 
 p.quote-footer {
     margin: 0;
-    text-align: right;
+    padding-left: 100px;
 }
 
 p.p {
