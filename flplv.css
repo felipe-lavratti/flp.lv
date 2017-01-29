@@ -32,12 +32,12 @@ div.quote {
 }
 
 p.quote {
-    line-height: 10%;
+    margin: 0;
     font-style: italic;
 }
 
 p.quote-footer {
-    line-height: 10%;
+    margin: 0;
     text-align: right;
 }
 
