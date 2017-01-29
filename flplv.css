@@ -1,0 +1,101 @@
+body {
+    background: url('bg-cross.png');
+    background-color: #f2f2f2;
+	color: #222;
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 16px;
+	font-weight: 300;
+    width: 550px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.art-frame {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+b {
+    font-weight: bold;
+}
+
+*.icon-title {color: #038bff}
+
+p.links {
+    padding-left: 80px;
+}
+
+div.quote {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 200px;
+}
+
+p.quote {
+    line-height: 10%;
+    font-style: italic;
+}
+
+p.quote-footer {
+    line-height: 10%;
+    text-align: right;
+}
+
+p.p {
+     text-indent: 50px;
+}
+
+div.paragraph {
+    margin-top: 40px;
+}
+
+a, .a{
+    color: #038bff;
+    font-style: normal;
+    text-decoration: underline;
+    cursor: pointer; cursor: hand;
+}
+
+a.micro-link {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.article-date {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+}
+
+
+input {
+  display: none;
+  visibility: hidden;
+}
+
+div.expanded-body {
+    margin-left: 40px;
+}
+
+.exp-engine-body {
+    height: 0px;
+    overflow: hidden;
+    cursor: hand;
+}
+.exp-engine-label {
+    line-height: 200%;
+    width: 100%;
+}
+.exp-engine-head:checked ~ .exp-engine-body {
+  height: 100%;
+}
+.exp-engine-head ~ label::before {
+  content: "+ ";
+}
+.exp-engine-head:checked ~ label::before {
+  content: "- ";
+}
