@@ -5,7 +5,7 @@ body {
 	font-family: 'Anonymous Pro', monospace;
 	font-size: 16px;
 	font-weight: 300;
-    width: 550px;
+    width: 600px;
     padding-top: 20px;
     padding-left: 80px;
 }
@@ -78,6 +78,10 @@ input {
 
 div.expanded-body {
     margin-left: 40px;
+}
+
+div.expanded-body-wide-gallery {
+    text-align: center;
 }
 
 .exp-engine-body {
